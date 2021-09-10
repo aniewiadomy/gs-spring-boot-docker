@@ -1,0 +1,5 @@
+Usage
+
+1. .\mvnw package
+2. docker build -t gs-spring-boot-docker .
+3. docker run -e MYSQL_HOST="" -p 8080:8080 gs-spring-boot-docker
